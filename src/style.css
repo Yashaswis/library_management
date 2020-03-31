@@ -1,0 +1,135 @@
+.window {
+   width: 100px;
+    font-size:20px;
+    border: darkorange;
+   background: 'orange';
+   flex-basis: 48%;
+   display: inline-block;
+   line-height: 5;
+   text-decoration: none;
+   text-align: center;
+   font-size: 15px;
+   color: red;
+  margin-top: 60px;
+
+ }
+ .formate{
+    width: 100px; 
+   background: 'orange';
+   flex-basis: 48%;
+   border-spacing: 10px;
+   text-align: center;
+   margin-top: -40px;
+ }
+.Box{
+   /* width: 200px;
+   height: 150px;
+   float : left;
+   margin: 5px; */
+   width: 300px;
+  padding: 50px;
+  border: 15px solid gray;
+  margin: 20px;
+}
+   /* display: inline-block;
+   line-height: 5;
+   text-decoration: none;
+   padding: 5px;
+  
+   font-size: 15px;
+   color: red;
+   transition: all 0.2s;}
+   */ 
+
+.formate:hover,.formate.window, .formate:focus {
+ border-color:goldenrod;
+ outline: 'green';
+}
+#form {
+   width: 1100px;  
+}
+input[type=text]{
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+   /* text-align: right;  For Edge */
+  text-align-last: center;
+   /* Allow the user to vertically resize the textarea (not horizontally) */
+ }
+ input[type=number]{
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+    /* text-align: right;  For Edge */
+   text-align-last: center;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=date] {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+    /* text-align: right;  For Edge */
+   text-align-last: center;
+ }
+ .box{
+   width: 300px;
+  padding: 20px;
+  border: 15px solid gray;
+  margin-top: 10px;
+ }
+ input[type=submit] {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+    /* text-align: right;  For Edge */
+   text-align-last: center;
+ }
+ .Display_form {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+ }
+ .form_1 {
+   float: center;
+   width: 25%;
+   margin-top: 6px;
+   text-align: center;
+ }
+ .form_1{
+   float: center;
+   width: 75%;
+   margin-top: 6px;
+   text-align: center;
+ }
+ /* label {
+   padding: 12px 12px 12px 0;
+   display: inline-block;
+ } */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ @media screen and (max-width: 600px) {
+   .form_1, .form_1, input[type=submit] {
+      width: 100%;
+    margin-top: 0;
+   }
+ }
+ 
+ 
+
+
+
